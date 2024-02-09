@@ -10,7 +10,7 @@ namespace Vector_Calculator
             Vector test2 = new Vector(-1, 2, -3);
             
             // This should be 0, 4, 0
-            Console.WriteLine(Vector.Add(test1, test2));
+            Console.WriteLine(Vector.ProjectOnto(test1, test2));
         }
     }
 }
